@@ -2,7 +2,7 @@
 ## Overview
 This project implements the **SPI (Serial Peripheral Interface) protocol** using Verilog HDL. The design models a **full-duplex master–slave communication system**, supporting serial data transfer between digital modules using standard SPI signals.
 
-The system demonstrates how parallel data is serialized, transmitted over SPI, received back, and stored in memory, making it suitable for understanding real-world SPI communication used in microcontrollers and peripheral devices.
+The system demonstrates how serial data is transmitted over SPI, parallelized and stored in memory, or read from memory, and re serialzed making it suitable for understanding real-world SPI communication used in microcontrollers and peripheral devices.
 ## Features
 - Full-duplex serial communication
 - Master–slave architecture
